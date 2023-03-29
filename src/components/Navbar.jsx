@@ -87,12 +87,14 @@ const Navbar = () => {
             <Link to="/">Home</Link>
             {/* <ListItem>gestureControl</ListItem> */}
             <ListItem>Product</ListItem>
-            <ListItem>Room</ListItem>
+            {/* <ListItem>Room</ListItem> */}
+            <Link to="/room">Room</Link>
             <Link to="/works">Works</Link>
+            {/* <Link to="/login">Login</Link> */}
           </List>
         </Links>
-        <Icons>
-        </Icons>
+        {/* <Icons>
+        </Icons> */}
       </Container>
     </Section>
   );

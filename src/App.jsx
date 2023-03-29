@@ -4,7 +4,8 @@ import React, {useRef} from 'react';
 import styled from "styled-components";
 import Home from "./components/Home";
 import Works from "./components/Works";
-
+import Room from "./components/Room";
+import Login from "./components/login/Login";
 
 const Container = styled.div`
 height: 100vh;
@@ -25,6 +26,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/works" element={<Works />} />
+        <Route path="/room" element={<Room />} />
+        <Route path="/login" element={<Login />} />
       </Routes>
     </Container>
 
